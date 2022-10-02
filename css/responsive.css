@@ -1,0 +1,72 @@
+@media (max-width: 1170px) {
+
+  .serch_box{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+  }
+  .serch_box input {
+   display:none;
+}
+
+.menu ul li:nth-child(5){
+ display:none;
+}
+
+.menu ul li:nth-child(6){
+  display:flex;
+}
+
+.profile_area ul li:nth-child(1),.profile_area ul li:nth-child(2){
+  display:none;
+}
+
+.profile_area ul li:nth-child(3){
+  display:flex;
+}
+
+.left_side{
+  display: none;
+}
+
+
+
+}
+
+
+@media (max-width:900px){
+  nav{
+    display: none;
+  }
+
+  .menu_toggler{
+    display:block;
+  }
+
+  .right_side{
+    display:none
+  }
+}
+
+
+@media (max-width:500px){
+.hidden{
+  display:none;
+}
+
+.story {
+  width: 21%;
+}
+
+.story_creator {
+  width: 23%;
+}
+
+.post_creator_bottom ul li {
+  padding: 5px 5px;
+}
+
+.creat_room ul li:last-child {
+ display:none;
+}
+}
